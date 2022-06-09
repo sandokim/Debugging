@@ -32,6 +32,8 @@ plt.savefig('out.png')
 
 상대경로 설정 : ./~~
 
+#### Epoch마다 image plot하여 quality check하는 코드
+
 ```python 
 fig = plt.figure(figsize=(8,9.5))
 
