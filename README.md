@@ -69,3 +69,9 @@ fig = plt.figure(figsize=(8,9.5))
 
   del fig
 ```
+
+keymap 설치하고 F3으로 바로 연결코드 찾기
+
+<img src="https://github.com/sandokim/Debugging/blob/main/images/keymap.PNG" width="100%">
+
+<img src="https://github.com/sandokim/Debugging/blob/main/images/F3.PNG" width="100%">
