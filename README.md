@@ -14,7 +14,7 @@ ex) data.keys()로 argument 확인
 
 ex) dir(batch_data)로 객체확인
 
-ex) batch_data.\__class__\()로 batch_data의 class 확인가능
+ex) batch_data.\__class__\()로 batch_data의 class 확인가능 --> numpy array, nibabel 등등
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/data.keys().PNG" width="80%">
 
