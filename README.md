@@ -31,3 +31,39 @@ plt.savefig('out.png')
 <img src="https://github.com/sandokim/Debugging/blob/main/images/cmt파일 및 상대경로설정.PNG" width="100%">
 
 상대경로 설정 : ./~~
+
+```python 
+fig = plt.figure(figsize=(8,9.5))
+
+  plt.subplot(2, 2, 1)
+  plt.imshow(whole_label_npy, cmap=bc)
+  plt.xlabel('whole_vein', fontsize=12)
+  plt.xticks([])
+  plt.yticks([])
+
+  plt.subplot(2, 2, 2)
+  plt.imshow(label_npy, cmap=cc)
+  plt.xlabel('model_label', fontsize=12)
+  plt.xticks([])
+  plt.yticks([])
+
+  plt.subplot(2, 2, 3)
+  plt.imshow(extra_label_npy, cmap=bc)
+  plt.title('extra_vein', fontsize=12)
+  plt.axis('off')
+
+  plt.subplot(2, 2, 4)
+  plt.imshow(pred_npy, cmap=cc)
+  plt.title('pred', fontsize=12)
+  plt.axis('off')
+
+  sub = label_list.split('.')[0]
+  plt.tight_layout()
+  plt.suptitle(sub, fontsize=13)
+  plt.subplots_adjust(left = 0, bottom = 0, right = 1, top = 1, hspace = 0, wspace = 0)
+  plt.savefig(os.path.join('/quality_check', sub + '_qc.png'))
+  plt.clf()
+  plt.close()
+
+  del fig
+```
