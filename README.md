@@ -24,3 +24,6 @@ plt.imshow(data[0,0,50].cpu(), cmap='gray') # cuda에서 cpu로 옮겨서 plot
 
 plt.savefig('out.png')
 
+#### cmt.txt 파일로 args 설정
+
+<img src="https://github.com/sandokim/Debugging/blob/main/images/cmt.PNG" width="80%">
