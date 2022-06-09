@@ -26,4 +26,4 @@ plt.savefig('out.png')
 
 #### cmt.txt 파일로 args 설정
 
-<img src="https://github.com/sandokim/Debugging/blob/main/images/cmt.PNG" width="80%">
+<img src="https://github.com/sandokim/Debugging/blob/main/images/cmt.PNG" width="100%">
