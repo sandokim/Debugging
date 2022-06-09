@@ -6,12 +6,21 @@ Debugging시 args를 추가하여 모델을 디버깅할 수 있다.
 
 justMycode : False -> import한 package의 연산까지 볼 수 있다.
 
-debug console에서 image input, target input 확인
+debug console에서 image input, target input 
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/debug console.PNG" width="100%">
 
 ex) data.keys()로 argument 확인
 
-ex) dir(batch_data)로 객체확인 --> '__class__', ...
+ex) dir(batch_data)로 객체확인
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/data.keys().PNG" width="80%">
+
+#### debug console로 이미지 확인
+
+import matplotlib.pyplot as plt
+
+plt.imshow(data[0,0,50].cpu(), cmap='gray') # cuda에서 cpu로 옮겨서 plot
+
+plt.savefig('out.png')
+
