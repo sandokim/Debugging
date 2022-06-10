@@ -18,6 +18,8 @@ ex) batch_data.\__class__\로 batch_data의 class 확인가능 --> numpy array, 
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/data.keys().PNG" width="80%">
 
+<img src="https://github.com/sandokim/Debugging/blob/main/images/class.PNG" width="80%">
+
 #### debug console로 이미지 확인
 
 import matplotlib.pyplot as plt
