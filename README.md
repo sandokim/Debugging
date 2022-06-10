@@ -99,7 +99,7 @@ plt.savefig('out.png')
 
 ### input img meta data check
 
-<img src="https://github.com/sandokim/Debugging/blob/main/images/meta_data_check.PNG" width="70%">
+<img src="https://github.com/sandokim/Debugging/blob/main/images/meta_data_check.PNG" width="100%">
 
 ### CUDA error
 
