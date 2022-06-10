@@ -109,6 +109,8 @@ plt.savefig('out.png')
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/state_dict.PNG" width="100%">
 
+#### 이로써 아래와 같이 일차적으로 model_state error가 해결된다.
+
 <img src="https://github.com/sandokim/Debugging/blob/main/images/model_dict['state_dict'].PNG" width="100%">
 
 ### CUDA error
