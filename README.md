@@ -97,6 +97,10 @@ plt.imshow(data[:,:,50], cmap='gray')
 plt.savefig('out.png')
 ```
 
+### input img meta data check
+
+<img src="https://github.com/sandokim/Debugging/blob/main/images/meta_data_check.PNG" width="70%">
+
 ### CUDA error
 
 [Error] RuntimeError: CUDA error: no kernel image is available for execution on the deviceCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
