@@ -81,3 +81,5 @@ keymap 설치하고 F3으로 바로 연결코드 찾기
 [Error] RuntimeError: CUDA error: no kernel image is available for execution on the deviceCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
 
 [디바이스에 맞는 torch 설치](https://captainteemo.tistory.com/23)
+
+### [CUDA <-> torch 버전 일치](https://bo-10000.tistory.com/75)
