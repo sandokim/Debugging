@@ -75,3 +75,9 @@ keymap 설치하고 F3으로 바로 연결코드 찾기
 <img src="https://github.com/sandokim/Debugging/blob/main/images/keymap.PNG" width="50%">
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/F3.PNG" width="70%">
+
+### CUDA error
+
+[Error] RuntimeError: CUDA error: no kernel image is available for execution on the deviceCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+
+[디바이스에 맞는 torch 설치](https://captainteemo.tistory.com/23)
