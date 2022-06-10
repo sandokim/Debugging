@@ -82,6 +82,10 @@ keymap 설치하고 F3으로 바로 연결코드 찾기
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/model_keys_check.PNG" width="70%">
 
+[How to ignore and initialize Missing key(s) in state_dict](https://stackoverflow.com/questions/63057468/how-to-ignore-and-initialize-missing-keys-in-state-dict/63064444#63064444)
+
+<img src="https://github.com/sandokim/Debugging/blob/main/images/model_strict.PNG" width="70%">
+
 ### CUDA error
 
 [Error] RuntimeError: CUDA error: no kernel image is available for execution on the deviceCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
