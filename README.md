@@ -2,7 +2,7 @@
 
 #### Github link -> README.md 파일에 적어놓고 시작하기
 
-<img src="https://github.com/sandokim/Debugging/blob/main/images/Readme_file_github_link.PNG" width="60%">
+<img src="https://github.com/sandokim/Debugging/blob/main/images/Readme_file_github_link.PNG" width="100%">
 
 Debugging시 args를 추가하여 모델을 디버깅할 수 있다.
 
