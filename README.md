@@ -101,6 +101,16 @@ plt.savefig('out.png')
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/meta_data_check.PNG" width="100%">
 
+### model_dict error --> key 확인 후 state_dict key만 이용하여 모델의 weights와 biases를 불러온다. epoch, best_acc key는 필요없다..!
+
+#### Error가 뜨는 이유는 key값으로 state_dict만 줘야만하기 때문이다..
+
+<img src="https://github.com/sandokim/Debugging/blob/main/images/model_dict.PNG" width="100%">
+
+<img src="https://github.com/sandokim/Debugging/blob/main/images/state_dict.PNG" width="100%">
+
+<img src="https://github.com/sandokim/Debugging/blob/main/images/model_dict['state_dict'].PNG" width="100%">
+
 ### CUDA error
 
 [Error] RuntimeError: CUDA error: no kernel image is available for execution on the deviceCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
