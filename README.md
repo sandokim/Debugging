@@ -93,7 +93,7 @@ My saved state_dict does not contain all the layers that are in my model. How ca
 ```python
 import matplotlib.pyplot as plt
 print(data.shape)
-plt.imshow(data[0,0,50], cmap='gray')
+plt.imshow(data[:,:,50], cmap='gray')
 plt.savefig('out.png')
 ```
 
