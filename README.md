@@ -88,6 +88,15 @@ My saved state_dict does not contain all the layers that are in my model. How ca
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/model_strict.PNG" width="70%">
 
+##### Debug console 창에서 plt.show, plt.save로 이미지 확인
+
+```python
+import matplotlib.pyplot as plt
+print(data.shape)
+plt.imshow(data[0,0,50], cmap='gray')
+plt.savefig('out.png')
+```
+
 ### CUDA error
 
 [Error] RuntimeError: CUDA error: no kernel image is available for execution on the deviceCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
