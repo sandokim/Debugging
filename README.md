@@ -4,6 +4,10 @@
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/Readme_file_github_link.PNG" width="100%">
 
+#### F1 -> launch.json -> Debugging전에 args를 준다.
+
+<img src="https://github.com/sandokim/Debugging/blob/main/images/launch_json.PNG" width="100%">
+
 Debugging시 args를 추가하여 모델을 디버깅할 수 있다.
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/debugging args.PNG" width="60%">
