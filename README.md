@@ -1,5 +1,18 @@
 # Debugging
 
+htop -> RAM check
+
+nvidia-smi -> GPU check
+
+#### 실시간으로 gpu 사용량 확인하기
+터미널에서 watch -n0.1 nvidia-smi 를 입력합니다. -> 0.1은 리셋 간극으로 1초를 의미 합니다.
+
+du -h --max-depth=1 -> Current dir storage check
+
+VSCode -> F1 -> interpreter -> python3.9
+
+
+
 #### Github link -> README.md 파일에 적어놓고 시작하기
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/Readme_file_github_link.PNG" width="100%">
