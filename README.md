@@ -13,7 +13,7 @@ VSCode -> F1 -> interpreter -> python3.9
 
 ### Check the number of parameters in Model -> torchsummary
 
-<img src="https://github.com/sandokim/Debugging/blob/main/images/torchsummary.JPG" width="50%">
+<img src="https://github.com/sandokim/Debugging/blob/main/images/modelsummary.JPG" width="50%">
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/model_parameters.JPG" width="50%">
 
