@@ -15,6 +15,8 @@ VSCode -> F1 -> interpreter -> python3.9
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/torchsummary.JPG" width="50%">
 
+<img src="https://github.com/sandokim/Debugging/blob/main/images/model_parameters.JPG" width="50%">
+
 #### Github link -> README.md 파일에 적어놓고 시작하기
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/Readme_file_github_link.PNG" width="100%">
