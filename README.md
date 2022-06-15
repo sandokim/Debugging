@@ -153,3 +153,7 @@ plt.savefig('out.png')
 [legacy-install-failure(python), 파이썬 버전 낮추면 됨](https://sogogi1000inbun.tistory.com/m/91) --> Doesn't sovle the problem
 
 [setup.py vs requirements.txt](https://jadehan.tistory.com/42)
+
+[How to state in requirements.txt a direct github source](https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source)
+
+<img src="https://github.com/sandokim/Debugging/blob/main/images/github_repository.PNG" width="100%">
