@@ -180,5 +180,9 @@ requirements.txt에서 scipy만 주석처리하고 설치하면 정상설치 되
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/scipy error2.PNG" width="80%">
 
+이럴때는 그냥 requirements.txt가 아니라 따로 pip install scipy으로 최신버전 scipy를 설치하자.
+
+<img src="https://github.com/sandokim/Debugging/blob/main/images/pip install scipy.PNG" width="80%">
+
 
 
