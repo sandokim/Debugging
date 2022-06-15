@@ -150,4 +150,6 @@ plt.savefig('out.png')
 
 [ERROR: Command errored out with exit status 1:](https://archivers.tistory.com/669)
 
-[legacy-install-failure(python), 파이썬 버전 낮추면 됨](https://sogogi1000inbun.tistory.com/m/91)
+[legacy-install-failure(python), 파이썬 버전 낮추면 됨](https://sogogi1000inbun.tistory.com/m/91) --> Doesn't sovle the problem
+
+[setup.py vs requirements.txt](https://jadehan.tistory.com/42)
