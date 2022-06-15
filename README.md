@@ -149,3 +149,5 @@ plt.savefig('out.png')
 ### pip install package error
 
 [ERROR: Command errored out with exit status 1:](https://archivers.tistory.com/669)
+
+[legacy-install-failure(python), 파이썬 버전 낮추면 됨](https://sogogi1000inbun.tistory.com/m/91)
