@@ -145,3 +145,7 @@ plt.savefig('out.png')
 [디바이스에 맞는 torch 설치](https://captainteemo.tistory.com/23)
 
 ### [CUDA <-> torch 버전 일치](https://bo-10000.tistory.com/75)
+
+### pip install package error
+
+[ERROR: Command errored out with exit status 1:](https://archivers.tistory.com/669)
