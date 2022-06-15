@@ -174,11 +174,11 @@ pip install -r requiremnents.txt
 
 requirements.txt에서 scipy만 주석처리하고 설치하면 정상설치 되었지만, 나머지를 모두 주석처리하고 scipy을 설치하는 경우 에러가 발생하였다. Version mismatch?? 
 
-<img src="https://github.com/sandokim/Debugging/blob/main/images/scipy error.PNG" width="100%">
+<img src="https://github.com/sandokim/Debugging/blob/main/images/scipy error.PNG" width="80%">
 
-<img src="https://github.com/sandokim/Debugging/blob/main/images/scipy error1.PNG" width="100%">
+<img src="https://github.com/sandokim/Debugging/blob/main/images/scipy error1.PNG" width="60%">
 
-<img src="https://github.com/sandokim/Debugging/blob/main/images/scipy error2.PNG" width="100%">
+<img src="https://github.com/sandokim/Debugging/blob/main/images/scipy error2.PNG" width="80%">
 
 
 
