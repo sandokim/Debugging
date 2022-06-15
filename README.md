@@ -154,6 +154,8 @@ plt.savefig('out.png')
 
 [setup.py vs requirements.txt](https://jadehan.tistory.com/42)
 
-[How to state in requirements.txt a direct github source](https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source)
+### [How to state in requirements.txt a direct github source](https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source)
+
+#### requirements.txt에 직접 github 소스를 명시하는 방법
 
 <img src="https://github.com/sandokim/Debugging/blob/main/images/github_repository.PNG" width="100%">
