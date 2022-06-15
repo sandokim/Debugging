@@ -162,10 +162,11 @@ plt.savefig('out.png')
 
 ### Package install Error
 
-[conda install -c conda-forge 패키지명](https://cceeddcc.tistory.com/4)
-
 - PackagesNotFoundError
 
 PackagesNotFoundError: The following packages are not available from current channels: conda install에서 가장 흔히 발생하는 오류 중 하나로 conda에서 패키지를 다운로드하려는 기본 채널에 패키지가 존재하지 않는 경우 발생하는데 다음과 같이 해결 가능
+
+[conda install -c conda-forge 패키지명](https://cceeddcc.tistory.com/4)
+
 
 
