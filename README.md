@@ -186,7 +186,7 @@ requirements.txt에서 scipy만 주석처리하고 설치하면 정상설치 되
 
 ### protobuf error
 
-<img src="https://github.com/sandokim/Debugging/blob/main/images/protobuf.PNG" width="80%">
+<img src="https://github.com/sandokim/Debugging/blob/main/images/protobuf.PNG" width="100%">
 
 solution --> pip3 install --upgrade protobuf==3.20.0
 
