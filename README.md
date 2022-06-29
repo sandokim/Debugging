@@ -1,5 +1,28 @@
 # Debugging
 
+### AttributeError: module 'torch._C' has no attribute '_cuda_setDevice'
+
+I got this error when I inadvertently downgraded pytorch to a CPU-only version (by conda installing some other packages).
+
+Should be verifiable via:
+
+```python
+>>> torch.cuda.is_available()
+False
+```
+My fix was reinstalling pytorch/torchvision to these pinned versions:
+
+```python
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  pytorch            pkgs/main::pytorch-1.3.1-cpu_py37h62f~ --> pytorch::pytorch-1.3.1-py3.7_cuda10.1.243_cudnn7.6.3_0
+  torchvision        pkgs/main::torchvision-0.4.2-cpu_py37~ --> pytorch::torchvision-0.4.2-py37_cu101
+```
+
+----
+
+### Computing source check
+
 htop -> RAM check
 
 nvidia-smi -> GPU check
