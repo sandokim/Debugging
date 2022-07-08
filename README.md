@@ -6,32 +6,29 @@
 import matplotlib.pyplot as plt
 fig = plt.figure(figsize=(8,9.5))
 
-plt.subplot(2, 2, 1)
-plt.imshow(image_Xshifted, cmap='CMRmap')
-plt.xlabel(input_ori, fontsize=12)
-plt.xticks([])
-plt.yticks([])
+plt.subplot(1, 4, 1)
+plt.imshow(input_ori[128,:,:], cmap='CMRmap')
+plt.title('input_ori', fontsize=12)
+# plt.axis('off')
 
-plt.subplot(2, 2, 2)
-plt.imshow(image_Xshifted, cmap='CMRmap')
-plt.xlabel('shifted X', fontsize=12)0
-plt.xticks([])
-plt.yticks([])
+plt.subplot(1, 4, 2)
+plt.imshow(image_Xshifted[128,:,:], cmap='CMRmap')
+plt.title('shifted X', fontsize=12)
+# plt.axis('off')
 
-plt.subplot(2, 2, 3)
-plt.imshow(image_Xshifted, cmap='CMRmap')
+plt.subplot(1, 4, 3)
+plt.imshow(image_Yshifted[128,:,:], cmap='CMRmap')
 plt.title('shifted Y', fontsize=12)
-plt.axis('off')
+# plt.axis('off')
 
-plt.subplot(2, 2, 4)
-plt.imshow(image_Zshifted, cmap='CMRmap')
+plt.subplot(1, 4, 4)
+plt.imshow(image_Zshifted[128,:,:], cmap='CMRmap')
 plt.title('shifted Z', fontsize=12)
-plt.axis('off')
+# plt.axis('off')
 
 plt.tight_layout()
-plt.suptitle(sub, fontsize=13)
-plt.subplots_adjust(left = 0, bottom = 0, right = 1, top = 1, hspace = 0, wspace = 0)
-plt.savefig(os.path.join('/_qc.png'))
+# plt.subplots_adjust(left = 0, bottom = 0, right = 0, top = 0, hspace = 0, wspace = 0)
+plt.savefig('./_qc.png')
 plt.clf()
 plt.close()
 
