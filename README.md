@@ -85,38 +85,39 @@ plt.savefig('out.png')
 #### Epoch마다 image plot하여 quality check하는 코드
 
 ```python 
+import matplotlib.pyplot as plt
 fig = plt.figure(figsize=(8,9.5))
 
-  plt.subplot(2, 2, 1)
-  plt.imshow('./input_ori.png', cmap='CMRmap')
-  plt.xlabel('input_ori', fontsize=12)
-  plt.xticks([])
-  plt.yticks([])
+plt.subplot(2, 2, 1)
+plt.imshow(image_Xshifted, cmap='CMRmap')
+plt.xlabel(input_ori, fontsize=12)
+plt.xticks([])
+plt.yticks([])
 
-  plt.subplot(2, 2, 2)
-  plt.imshow('./shiftedX.png', cmap='CMRmap')
-  plt.xlabel('shifted X', fontsize=12)
-  plt.xticks([])
-  plt.yticks([])
+plt.subplot(2, 2, 2)
+plt.imshow(image_Xshifted, cmap='CMRmap')
+plt.xlabel('shifted X', fontsize=12)0
+plt.xticks([])
+plt.yticks([])
 
-  plt.subplot(2, 2, 3)
-  plt.imshow('./shiftedY.png', cmap='CMRmap')
-  plt.title('shifted Y', fontsize=12)
-  plt.axis('off')
+plt.subplot(2, 2, 3)
+plt.imshow(image_Xshifted, cmap='CMRmap')
+plt.title('shifted Y', fontsize=12)
+plt.axis('off')
 
-  plt.subplot(2, 2, 4)
-  plt.imshow('./shiftedZ.png', cmap='CMRmap')
-  plt.title('shifted Z', fontsize=12)
-  plt.axis('off')
+plt.subplot(2, 2, 4)
+plt.imshow(image_Zshifted, cmap='CMRmap')
+plt.title('shifted Z', fontsize=12)
+plt.axis('off')
 
-  plt.tight_layout()
-  plt.suptitle(sub, fontsize=13)
-  plt.subplots_adjust(left = 0, bottom = 0, right = 1, top = 1, hspace = 0, wspace = 0)
-  plt.savefig(os.path.join('/_qc.png'))
-  plt.clf()
-  plt.close()
+plt.tight_layout()
+plt.suptitle(sub, fontsize=13)
+plt.subplots_adjust(left = 0, bottom = 0, right = 1, top = 1, hspace = 0, wspace = 0)
+plt.savefig(os.path.join('/_qc.png'))
+plt.clf()
+plt.close()
 
-  del fig
+del fig
 ```
 
 keymap 설치하고 F3으로 바로 연결코드 찾기
