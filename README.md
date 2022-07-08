@@ -88,24 +88,24 @@ plt.savefig('out.png')
 fig = plt.figure(figsize=(8,9.5))
 
   plt.subplot(2, 2, 1)
-  plt.imshow(input_ori.png, cmap='CMRmap')
+  plt.imshow('./input_ori.png', cmap='CMRmap')
   plt.xlabel('input_ori', fontsize=12)
   plt.xticks([])
   plt.yticks([])
 
   plt.subplot(2, 2, 2)
-  plt.imshow(shiftedX.png, cmap='CMRmap')
+  plt.imshow('./shiftedX.png', cmap='CMRmap')
   plt.xlabel('shifted X', fontsize=12)
   plt.xticks([])
   plt.yticks([])
 
   plt.subplot(2, 2, 3)
-  plt.imshow(shiftedY.png, cmap='CMRmap')
+  plt.imshow('./shiftedY.png', cmap='CMRmap')
   plt.title('shifted Y', fontsize=12)
   plt.axis('off')
 
   plt.subplot(2, 2, 4)
-  plt.imshow(shiftedZ.png, cmap='CMRmap')
+  plt.imshow('./shiftedZ.png', cmap='CMRmap')
   plt.title('shifted Z', fontsize=12)
   plt.axis('off')
 
