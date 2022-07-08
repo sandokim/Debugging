@@ -109,11 +109,10 @@ fig = plt.figure(figsize=(8,9.5))
   plt.title('shifted Z', fontsize=12)
   plt.axis('off')
 
-  sub = label_list.split('.')[0]
   plt.tight_layout()
   plt.suptitle(sub, fontsize=13)
   plt.subplots_adjust(left = 0, bottom = 0, right = 1, top = 1, hspace = 0, wspace = 0)
-  plt.savefig(os.path.join('/quality_check', sub + '_qc.png'))
+  plt.savefig(os.path.join('/_qc.png'))
   plt.clf()
   plt.close()
 
