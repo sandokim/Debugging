@@ -109,7 +109,7 @@ plt.savefig('./_qc.png')
 
 ```python 
 import matplotlib.pyplot as plt
-fig = plt.figure(figsize=(8,9.5))
+fig = plt.figure(figsize=(12,8))
 
 plt.subplot(3, 4, 1)
 plt.imshow(image[:,:,150], cmap='CMRmap')
