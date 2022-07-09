@@ -101,6 +101,85 @@ plt.close()
 del fig
 ```
 
+```python
+plt.tight_layout()
+# plt.subplots_adjust(left = 0, bottom = 0, right = 0, top = 0, hspace = 0, wspace = 0)
+plt.savefig('./_qc.png')
+```
+
+```python 
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize=(8,9.5))
+
+plt.subplot(3, 4, 1)
+plt.imshow(image[:,:,150], cmap='CMRmap')
+plt.title('input_ori', fontsize=12)
+# plt.axis('off')
+
+plt.subplot(3, 4, 2)
+plt.imshow(image_Xshifted[:,:,150], cmap='CMRmap')
+plt.title('shifted X', fontsize=12)
+# plt.axis('off')
+
+plt.subplot(3, 4, 3)
+plt.imshow(image_Yshifted[:,:,150], cmap='CMRmap')
+plt.title('shifted Y', fontsize=12)
+# plt.axis('off')
+
+plt.subplot(3, 4, 4)
+plt.imshow(image_Zshifted[:,:,150], cmap='CMRmap')
+plt.title('shifted Z', fontsize=12)
+# plt.axis('off')
+
+plt.subplot(3, 4, 5)
+plt.imshow(label[:,:,150], cmap='CMRmap')
+plt.title('input_ori', fontsize=12)
+# plt.axis('off')
+
+plt.subplot(3, 4, 6)
+plt.imshow(label_Xshifted[:,:,150], cmap='CMRmap')
+plt.title('shifted X', fontsize=12)
+# plt.axis('off')
+
+plt.subplot(3, 4, 7)
+plt.imshow(label_Yshifted[:,:,150], cmap='CMRmap')
+plt.title('shifted Y', fontsize=12)
+# plt.axis('off')
+
+plt.subplot(3, 4, 8)
+plt.imshow(label_Zshifted[:,:,150], cmap='CMRmap')
+plt.title('shifted Z', fontsize=12)
+# plt.axis('off')
+
+plt.subplot(3, 4, 9)
+plt.imshow(pseudo_label[:,:,150], cmap='CMRmap')
+plt.title('input_ori', fontsize=12)
+# plt.axis('off')
+
+plt.subplot(3, 4, 10)
+plt.imshow(pseudo_label_Xshifted[:,:,150], cmap='CMRmap')
+plt.title('shifted X', fontsize=12)
+# plt.axis('off')
+
+plt.subplot(3, 4, 11)
+plt.imshow(pseudo_label_Yshifted[:,:,150], cmap='CMRmap')
+plt.title('shifted Y', fontsize=12)
+# plt.axis('off')
+
+plt.subplot(3, 4, 12)
+plt.imshow(pseudo_label_Zshifted[:,:,150], cmap='CMRmap')
+plt.title('shifted Z', fontsize=12)
+# plt.axis('off')
+
+plt.tight_layout()
+# plt.subplots_adjust(left = 0, bottom = 0, right = 0, top = 0, hspace = 0, wspace = 0)
+plt.savefig('./_qc.png')
+plt.clf()
+plt.close()
+
+del fig
+```
+
 ### AttributeError: module 'torch._C' has no attribute '_cuda_setDevice'
 
 I got this error when I inadvertently downgraded pytorch to a CPU-only version (by conda installing some other packages).
