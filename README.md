@@ -7,22 +7,22 @@ import matplotlib.pyplot as plt
 fig = plt.figure(figsize=(8,9.5))
 
 plt.subplot(1, 4, 1)
-plt.imshow(image[128,:,:], cmap='CMRmap')
+plt.imshow(image[:,:,150], cmap='CMRmap')
 plt.title('input_ori', fontsize=12)
 # plt.axis('off')
 
 plt.subplot(1, 4, 2)
-plt.imshow(image_Xshifted[128,:,:], cmap='CMRmap')
+plt.imshow(image_Xshifted[:,:,150], cmap='CMRmap')
 plt.title('shifted X', fontsize=12)
 # plt.axis('off')
 
 plt.subplot(1, 4, 3)
-plt.imshow(image_Yshifted[128,:,:], cmap='CMRmap')
+plt.imshow(image_Yshifted[:,:,150], cmap='CMRmap')
 plt.title('shifted Y', fontsize=12)
 # plt.axis('off')
 
 plt.subplot(1, 4, 4)
-plt.imshow(image_Zshifted[128,:,:], cmap='CMRmap')
+plt.imshow(image_Zshifted[:,:,150], cmap='CMRmap')
 plt.title('shifted Z', fontsize=12)
 # plt.axis('off')
 
@@ -40,22 +40,22 @@ import matplotlib.pyplot as plt
 fig = plt.figure(figsize=(8,9.5))
 
 plt.subplot(1, 4, 1)
-plt.imshow(label[128,:,:], cmap='CMRmap')
+plt.imshow(label[:,:,150], cmap='CMRmap')
 plt.title('input_ori', fontsize=12)
 # plt.axis('off')
 
 plt.subplot(1, 4, 2)
-plt.imshow(label_Xshifted[128,:,:], cmap='CMRmap')
+plt.imshow(label_Xshifted[:,:,150], cmap='CMRmap')
 plt.title('shifted X', fontsize=12)
 # plt.axis('off')
 
 plt.subplot(1, 4, 3)
-plt.imshow(label_Yshifted[128,:,:], cmap='CMRmap')
+plt.imshow(label_Yshifted[:,:,150], cmap='CMRmap')
 plt.title('shifted Y', fontsize=12)
 # plt.axis('off')
 
 plt.subplot(1, 4, 4)
-plt.imshow(label_Zshifted[128,:,:], cmap='CMRmap')
+plt.imshow(label_Zshifted[:,:,150], cmap='CMRmap')
 plt.title('shifted Z', fontsize=12)
 # plt.axis('off')
 
@@ -73,22 +73,22 @@ import matplotlib.pyplot as plt
 fig = plt.figure(figsize=(8,9.5))
 
 plt.subplot(1, 4, 1)
-plt.imshow(pseudo_label[128,:,:], cmap='CMRmap')
+plt.imshow(pseudo_label[:,:,150], cmap='CMRmap')
 plt.title('input_ori', fontsize=12)
 # plt.axis('off')
 
 plt.subplot(1, 4, 2)
-plt.imshow(pseudo_label_Xshifted[128,:,:], cmap='CMRmap')
+plt.imshow(pseudo_label_Xshifted[:,:,150], cmap='CMRmap')
 plt.title('shifted X', fontsize=12)
 # plt.axis('off')
 
 plt.subplot(1, 4, 3)
-plt.imshow(pseudo_label_Yshifted[128,:,:], cmap='CMRmap')
+plt.imshow(pseudo_label_Yshifted[:,:,150], cmap='CMRmap')
 plt.title('shifted Y', fontsize=12)
 # plt.axis('off')
 
 plt.subplot(1, 4, 4)
-plt.imshow(pseudo_label_Zshifted[128,:,:], cmap='CMRmap')
+plt.imshow(pseudo_label_Zshifted[:,:,150], cmap='CMRmap')
 plt.title('shifted Z', fontsize=12)
 # plt.axis('off')
 
