@@ -133,7 +133,7 @@ plt.title('shifted Z', fontsize=12)
 
 plt.subplot(3, 4, 5)
 plt.imshow(label[:,:,150], cmap='CMRmap')
-plt.title('input_ori', fontsize=12)
+plt.title('label', fontsize=12)
 # plt.axis('off')
 
 plt.subplot(3, 4, 6)
@@ -153,7 +153,7 @@ plt.title('shifted Z', fontsize=12)
 
 plt.subplot(3, 4, 9)
 plt.imshow(pseudo_label[:,:,150], cmap='CMRmap')
-plt.title('input_ori', fontsize=12)
+plt.title('pseudo_label', fontsize=12)
 # plt.axis('off')
 
 plt.subplot(3, 4, 10)
